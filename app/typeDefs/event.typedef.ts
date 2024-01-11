@@ -1,6 +1,6 @@
 export const typeDefs = `
   type Query {
-    events: [Event]
+    events(genres: [String]): [Event]
   }
 
   type Event {
